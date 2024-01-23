@@ -1,0 +1,54 @@
+ .container{
+            width: 100%;
+            height: auto;
+            padding: 15px;
+            box-sizing: border-box;
+         }
+
+         h1{
+             display: none;
+         }
+
+         .image1{
+            width: 100%;
+            height: 400px;
+            background-image: url(https://www.1zoom.me/prev/323/322504.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+         }
+         h2{
+           font-size: 30px;
+           color: white;
+         }
+         p{
+           font-size: 13px;
+           text-align: center;
+         }
+         
+         
+
+         @media (min-width: 576px) {
+            .container{
+                max-width: 550px;
+               }
+         }
+         @media (min-width: 772px) {
+            .container{
+                max-width: 750px;
+               }
+         }
+         @media (min-width: 922px) {
+            .container{
+                max-width: 892px;
+               }
+         }
+         @media (min-width: 1200px) {
+            .container{
+                max-width: 1170px;
+               }
+         }
+         @media (min-width: 1440px) {
+            .container{
+                max-width: 1420px;
+               }
+         }
